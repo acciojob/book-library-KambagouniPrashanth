@@ -1,1 +1,68 @@
 /*  your css code here. If applicable */
+.h{
+    background-color: #ffffff;
+    width: 50%;
+    
+}
+body{
+background-color: #f8f8f8;
+margin-left: 20px;
+margin-right: 20px;
+
+}
+hr {
+    position: relative;
+    top: 20px;
+    border: none;
+    height: 2px;
+    width: 50%;
+    background: black;
+    margin-bottom: 25px;
+}
+
+*{
+    margin: 10px;
+}
+
+/* here class is started */
+
+.h h2{
+    position: relative;
+    right:-150px;
+
+}
+
+
+.book-library{
+    width: 50%;
+    background-color:#ffffff;
+    display: flex;
+    flex-flow: column wrap;
+
+}
+.book img{
+    position: relative;
+    right:-100px;
+}
+.book p{
+    font-size: 20px;
+    font-weight: 20px;
+    position: relative;
+    left:-10px;
+    color: black;
+}
+.book h6{
+    color: #777777;
+}
+.book #btn{
+    background-color: #2ecc71;
+    border: none;
+    color: white;
+    padding: 1px 200px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 2px;
+    background-color: #2ecc71;
+}
