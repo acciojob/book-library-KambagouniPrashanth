@@ -37,7 +37,10 @@ hr {
     width: 80%;
     background-color:#ffffff;
     display: flex;
-    flex-flow: column wrap;
+	position:absolute:
+	left:300px;
+	
+   
 
 }
 .book img{
