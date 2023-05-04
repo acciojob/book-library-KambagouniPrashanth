@@ -63,7 +63,7 @@ hr {
     color: #777777;
 }
 .book{
-	margin:10px;
+	margin-top:20px solid whitesmoke;
 }
 .book #btn{
     background-color: #2ecc71;
