@@ -1,12 +1,10 @@
 /*  your css code here. If applicable */
 .h{
     background-color: #ffffff;
-    width: 80%;
+    width: 95%;
     
 }
-div{
-	line-heigth:20px;
-}
+
 body{
 background-color: #f8f8f8;
 margin-left: 20px;
@@ -24,7 +22,7 @@ hr {
 }
 
 *{
-    margin: 10px;
+    margin: 5px;
 }
 
 /* here class is started */
@@ -38,15 +36,19 @@ hr {
 
 .book-library{
     width: 80%;
-    background-color:#ffffff;
+    background-color:whitesmoke;
     display: flex;
 	flex-direction:column;
-	
+/* 	border-bottem:1px solid white;
+	 */
 	position:absolute:
 	left:300px;
 	
    
 
+}
+.book{
+	background-color:#ffffff;
 }
 .book img{
     position: relative;
@@ -57,8 +59,8 @@ hr {
     font-size: 20px;
     font-weight: 20px;
     position: relative;
-    left:-10px;
-	font-size:10px;
+  
+	font-size:15px;
 	font-wight:bold;
     color: black;
 }
