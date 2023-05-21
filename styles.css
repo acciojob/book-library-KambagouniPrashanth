@@ -2,6 +2,7 @@
 .h{
     background-color: #f8f8f8;
     width: 95%;
+	text-align:center;
     
 }
 
@@ -67,9 +68,9 @@ hr {
 .book h6{
     color: #777777;
 }
-.book{
-	margin-top:20px solid whitesmoke;
-}
+/* .book{
+   border-bottom:20px solid whitesmoke;
+} */
 div{
 	border-bottom:8px solid white;
 }
