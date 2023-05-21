@@ -70,6 +70,9 @@ hr {
 .book{
 	margin-top:20px solid whitesmoke;
 }
+div{
+	border-bottom:8px solid white;
+}
 .book #btn{
     background-color: #2ecc71;
     border: none;
