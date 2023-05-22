@@ -49,6 +49,9 @@ hr {
 
 }
 .book{
+	border-top:10px solid white;
+}
+.book{
 	background-color: #f8f8f8;
 }
 .book img{
@@ -71,9 +74,9 @@ hr {
 /* .book{
    border-bottom:20px solid whitesmoke;
 } */
-div{
+/* div{
 	border-bottom:8px solid white;
-}
+} */
 .book #btn{
     background-color: #2ecc71;
     border: none;
