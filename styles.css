@@ -40,6 +40,7 @@ hr {
     background-color:whitesmoke;
     display: flex;
 	flex-direction:column;
+	border-top:2px solid black;
 /* 	border-bottem:1px solid white;
 	 */
 	position:absolute:
