@@ -1,39 +1,84 @@
-body {
+/*  your css code here. If applicable */
+.h{
+    background-color: #f8f8f8;
+    width: 95%;
+	text-align:center;
+    
+}
+
+body{
 background-color: #f8f8f8;
-margin: 0;
-padding: 0;
-font-family: sans-serif;
-font-size: 16px;
+margin-left: 20px;
+margin-right: 20px;
+
 }
-.book-library {
-width: 800px;
-margin: 20px auto;
-background-color: #ffffff;
-border-radius: 4px;
-box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2);
+hr {
+    position: relative;
+    top: -10px;
+    border: none;
+    height: 1px;
+    width: 80%;
+    background: black;
+    margin-bottom: 25px;
 }
-.book-library h1 {
-background-color: #f1f1f1;
-text-align: center;
-padding: 20px 0;
-font-size: 22px;
-border-bottom: 1px solid #e6e6e6;
+
+*{
+    margin: 5px;
 }
-.book-library .book {
-background-color: #f1f1f1;
-padding: 20px;
-margin: 20px 0;
-border-bottom: 1px solid #e6e6e6;
+
+/* here class is started */
+
+.h h2{
+    position: relative;
+    right:-120px;
+
 }
-.book-library .book h2 {
-margin: 0;
-font-size: 18px;
+
+
+.book-library{
+    width: 80%;
+    background-color:whitesmoke;
+    display: flex;
+	flex-direction:column;
+	border-top:2px solid black
+/* 	border-bottem:1px solid white;
+	 */
+	position:absolute:
+	left:300px;
+	
+   
+
 }
-.book-library .book p {
-margin: 0;
-font-size: 14px;
-color: #777777;
+.book{
+	border-top:10px solid white;
 }
+.book{
+	background-color: #f8f8f8;
+}
+.book img{
+    position: relative;
+	width:100px;
+    right:-100px;
+}
+.book p{
+    font-size: 20px;
+    font-weight: 20px;
+    position: relative;
+  
+	font-size:15px;
+	font-wight:bold;
+    color: black;
+}
+.book h6{
+    color: #777777;
+}
+/* .book{
+   border-bottom:20px solid whitesmoke;
+} */
+/* div{
+	border-bottom:8px solid white;
+} */
+/*  */
 .book-library .book .price {
 background-color: #2ecc71;
 color: #ffffff;
